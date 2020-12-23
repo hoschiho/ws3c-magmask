@@ -96,7 +96,6 @@ nav a, nav ul a {
     margin-bottom: 7em;
 }
 
-
 /* Order-now-btn styling in Navigation */
 #order-now-btn, #order-now-btn-mobile {
     text-transform: none;
@@ -167,4 +166,9 @@ nav a, nav ul a {
         align-items: center;
         margin-bottom: 10em;
     }
+}
+
+/* our-story */
+.card .card-title{
+    font-size: 1rem;
 }
