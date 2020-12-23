@@ -1,3 +1,25 @@
-nav{
-    background: #0D47A1;
+nav {
+    background: #FBFBFB;
+}
+
+nav a, nav ul a {
+    color: black;
+}
+
+.brand-logo {
+    margin-left: 0.5em;
+}
+
+#order-now-btn, #order-now-btn-mobile {
+    text-transform: none;
+    color: black;
+}
+
+#order-now-btn {
+    background-color: #E1D2F4;
+}
+
+#order-now-btn-mobile {
+    border-color: black;
+    background-color: #FBFBFB;
 }
