@@ -62,7 +62,7 @@ span{
 }
 
 .brand-logo{
-    width: 80px;
+    width: 5em;
     margin-left: 1em;
 }
 .social-icon{
@@ -70,10 +70,26 @@ span{
 }
 
 .roundedCorners {
-    border-radius: 10px;
+    border-radius: 0.625em;
 }
 
 .roundedTop{
-    border-radius: 10px 10px 0 0;
+    border-radius: 0.625em 0.625em 0 0;
 }
 
+.carouselBorder{
+    border: 1px solid #C4C4C4;
+    border-radius: 0.625em;
+    padding: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+
+.carousel .indicators .indicator-item.active{
+    background-color: black;
+}
+
+.carousel .indicators .indicator-item{
+    background-color: #C4C4C4;
+}
