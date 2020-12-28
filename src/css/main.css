@@ -93,3 +93,14 @@ span{
 .carousel .indicators .indicator-item{
     background-color: #C4C4C4;
 }
+
+nav{
+    background: #0D47A1;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+/* Order-now */
+[class*="order"]{
