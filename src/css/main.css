@@ -1,12 +1,11 @@
+/* main */
 nav{
     background: #0D47A1;
 }
 
-
-
-
+h1,h2{
+    text-align: center;
+}
 
 /* Order-now */
 [class*="order"]{
-    text-align: center;
-}
