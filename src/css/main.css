@@ -44,23 +44,13 @@ body {
     font-weight: 200;
 }
 
-subtitle1 {
-    font-size: 17px;
-    font-weight: 400;
-}
-
 button {
     font-size: 15px;
     font-weight: 500;
 }
 
-overline {
-    font-size: 11px;
-    font-weight: 400;
-}
-
-span {
-    background-color: #E1D2F4;
+.primary-color {
+    background-color: #e1d2f4;
 }
 
 .brand-logo {
@@ -102,6 +92,11 @@ nav {
 
 h1, h2 {
     text-align: center;
+}
+.copyright{
+    margin-top: 7em;
+    margin-left: 1em;
+    padding-bottom: 3em
 }
 
 /* Order-now */
