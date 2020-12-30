@@ -1,11 +1,104 @@
-/* main */
-nav{
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+h1, h2, h3, h4, h5, h6, subtitle1 {
+    font-family: "Lato", sans-serif;
+}
+
+body, button, overline {
+    font-family: "Karla", sans-serif;
+}
+
+h1 {
+    font-size: 101px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 63px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 5em;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+body {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+button {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.primary-color {
+    background-color: #e1d2f4;
+}
+
+.brand-logo {
+    width: 5em;
+    margin-left: 1em;
+}
+
+.social-icon {
+    padding-right: 1em;
+}
+
+.roundedCorners {
+    border-radius: 0.625em;
+}
+
+.roundedTop {
+    border-radius: 0.625em 0.625em 0 0;
+}
+
+.carouselBorder {
+    border: 1px solid #C4C4C4;
+    border-radius: 0.625em;
+    padding: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: black;
+}
+
+.carousel .indicators .indicator-item {
+    background-color: #C4C4C4;
+}
+
+nav {
     background: #0D47A1;
 }
 
-h1,h2{
+h1, h2 {
     text-align: center;
+}
+.copyright{
+    margin-top: 7em;
+    margin-left: 1em;
+    padding-bottom: 3em
 }
 
 /* Order-now */
-[class*="order"]{
+[class*="order"] {
+}
