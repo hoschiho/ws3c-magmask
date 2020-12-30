@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
-<body>
+<body class="grey lighten-5">
 <div class="navbar-fixed">
     <nav role="navigation">
         <div class="nav-wrapper">
@@ -37,8 +37,157 @@
     </li>
 </ul>
 
+<div class="container center-align">
+    <header>
+        <h1>Welcome to <span class="primary-color">MagMask</span></h1>
+        <img class="responsive-img roundedCorners" src="../resources/img/girlwithmask.jpg" alt="Girl wearing a Mask">
+        <h2>The first magnetic <br> FaceMask </h2>
+    </header>
+
+    <h3>Stop unravel <span class="primary-color">now.</span></h3>
+
+    <div class="row">
+        <div class="col s12 l4">
+            <img src="../resources/img/MagMask.png" class="circle responsive-img" alt="MagMask">
+            <h4>Simple.</h4>
+        </div>
+        <div class="col s12 l4">
+            <img src="../resources/img/corona.jpg" class="circle responsive-img" alt="Corona Virus">
+            <h4>Safe.</h4>
+        </div>
+        <div class="col s12 l4">
+            <img src="../resources/img/style.jpg" class="circle responsive-img" alt="wearing Mask with style">
+            <h4>Style.</h4>
+        </div>
+    </div>
+
+    <h3>How it <span class="primary-color">works.</span></h3>
+    <div class="row">
+        <div class="col s12 l6">
+            <img src="../resources/img/pierced.jpg" class="roundedCorners responsive-img" alt="Getting pierced">
+            <h4>1. Get Pierced.</h4>
+            <h6>To use MagMask, you'll only need some holes in your ears, to attach the MagRings.</h6>
+        </div>
+        <div class="col s12 l6">
+            <img src="../resources/img/magnets.png" class="roundedCorners responsive-img" alt="Magnet">
+            <h4>2. Magnets.</h4>
+            <h6>We use the magic power of MAGNETS, to snap MagMask onto your MagRings.</h6>
+        </div>
+    </div>
+
+    <h3>Users <span class="primary-color">say.</span></h3>
+
+    <div class="carousel carousel-slider center" data-indicators="true">
+        <div class="carousel-item" href="#one!">
+            <div class="carouselBorder left-align">
+                <h6>Jonas H.</h6>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <p>Mega cool! Konnte die MagMask bereits ausprobieren und klappt super!</p>
+            </div>
+
+        </div>
+        <div class="carousel-item" href="#two!">
+            <div class="carouselBorder left-align">
+                <h6>Ronny R.</h6>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star_half</i>
+                <p>Weite so! Sympatisches Team, super Produkt und dann schauen sie noch auf die Umwelt. Wow!</p>
+            </div>
+        </div>
+        <div class="carousel-item" href="#three!">
+            <div class="carouselBorder left-align">
+                <h6>Sabrina L.</h6>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star_half</i>
+                <p>Die MagMask ist eine super Idee. Werde ich sofort all meinen Freunden weiterempfehlen!</p>
+            </div>
+        </div>
+        <div class="carousel-item" href="#four!">
+            <div class="carouselBorder left-align">
+                <h6>Madame M.</h6>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <i class="tiny material-icons">star</i>
+                <p>Richtig geile Scheiss! Nie wieder Probleme mit Maske, Brille & Ohrringen. Und imfall mega
+                    stylisch!</p>
+            </div>
+        </div>
+    </div>
+
+    <h3>Known <span class="primary-color">from.</span></h3>
+    <div class="row">
+        <div class="col s12 l6">
+            <a href="https://www.20min.ch/">
+                <img src="../resources/img/20minBorder.png" class="roundedCorners responsive-img" alt="20min">
+            </a>
+        </div>
+        <div class="col s12 l6">
+            <a href="https://www.kickstarter.com/">
+                <img src="../resources/img/kickstarterBorder.png" class="roundedCorners responsive-img"
+                     alt="Kickstarter">
+            </a>
+        </div>
+    </div>
+</div>
+
+<footer class="page-footer grey darken-4 roundedTop">
+    <div class="row">
+        <img class="responsive-img brand-logo" src="../resources/img/logo_inverted.png" alt="MagMask Logo">
+        <div class="right">
+            <a href="https://www.instagram.com/">
+                <img class="responsive-img social-icon" src="../resources/img/instagram.svg" alt="Instagram Logo">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img class="responsive-img social-icon" src="../resources/img/fb.svg" alt="Facebook Logo">
+            </a>
+        </div>
+    </div>
+    <p class="copyright">2020 MagMask AG. All Rights Reserved</p>
+</footer>
+
 <!--JavaScript at end of body for optimized loading-->
 <script src="js/materialize.min.js"></script>
 <script src="js/javascript.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems, {
+            fullWidth: true,
+            indicators: true,
+            numVisible: 0,
+        });
+
+        // custom function for autoplaying
+        let indicatorItems = document.querySelectorAll('.carousel .indicator-item'),
+            slideTime = 5000,
+            activeClass = "active";
+
+        setInterval(() => {
+            indicatorItems.forEach(el => {
+                if (el.classList.contains(activeClass)) {
+                    sib = el.nextElementSibling;
+                    if (sib == null) {
+                        indicatorItems[0].click();
+                    } else {
+                        sib.click()
+                    }
+                }
+            });
+        }, slideTime);
+    });
+
+</script>
 </body>
 </html>
