@@ -114,3 +114,9 @@ nav a, nav ul a {
     margin-left: 1em;
     padding-bottom: 3em
 }
+
+.brand-logo-inverted {
+    stroke: white;
+    width: 5em;
+    margin-left: 0.5em;
+}
