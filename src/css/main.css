@@ -85,6 +85,14 @@ nav a, nav ul a {
     color: black;
 }
 
+.no-margin-top{
+    margin-top: 0;
+}
+
+.no-margin-bottom{
+    margin-bottom: 0;
+}
+
 /* Order-now-btn styling in Navigation*/
 #order-now-btn, #order-now-btn-mobile {
     text-transform: none;
