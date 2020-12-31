@@ -52,7 +52,6 @@ button {
 
 .brand-logo {
     width: 5em;
-    margin-left: 0.5em;
 }
 
 .rounded-corners {
@@ -85,15 +84,15 @@ nav a, nav ul a {
     color: black;
 }
 
-.no-margin-top{
+.no-margin-top {
     margin-top: 0;
 }
 
-.no-margin-bottom{
+.no-margin-bottom {
     margin-bottom: 0;
 }
 
-.margin-after{
+.margin-after {
     margin-bottom: 7em;
 }
 
@@ -131,4 +130,5 @@ nav a, nav ul a {
     stroke: white;
     width: 5em;
     margin-left: 0.5em;
+    padding-left: 1em;
 }
