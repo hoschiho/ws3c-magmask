@@ -9,40 +9,40 @@ body, button {
 }
 
 h1 {
-    font-size: 101px;
+    font-size: 6.313em;
     font-weight: 300;
 }
 
 h2 {
-    font-size: 63px;
+    font-size: 3.938em;
     font-weight: 300;
 }
 
 h3 {
-    font-size: 50px;
+    font-size: 3.125em;
     margin-top: 5em;
 }
 
 h4 {
-    font-size: 36px;
+    font-size: 2.25em;
 }
 
 h5 {
-    font-size: 25px;
+    font-size: 1.563em;
 }
 
 h6 {
-    font-size: 21px;
+    font-size: 1.313em;
     font-weight: 500;
 }
 
 body {
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: 200;
 }
 
 button {
-    font-size: 15px;
+    font-size: 0.938em;
     font-weight: 500;
 }
 
