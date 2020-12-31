@@ -4,13 +4,13 @@ M.AutoInit();
 // for opening the navigation on mobile phones
 document.addEventListener('DOMContentLoaded', function() {
     let elems = document.querySelectorAll('.sidenav');
-    let instances = M.Sidenav.init(elems, {});
+    M.Sidenav.init(elems, {});
 });
 
 // carousel for the "users-say"-section
 document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, {
+    let elems = document.querySelectorAll('.carousel');
+     M.Carousel.init(elems, {
         fullWidth: true,
         indicators: true,
         numVisible: 0,
@@ -23,12 +23,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     setInterval(() => {
         indicatorItems.forEach(el => {
+            let sibling;
             if (el.classList.contains(activeClass)) {
-                sib = el.nextElementSibling;
-                if (sib == null) {
+                sibling = el.nextElementSibling;
+                if (sibling == null) {
                     indicatorItems[0].click();
                 } else {
-                    sib.click()
+                    sibling.click()
                 }
             }
         });
