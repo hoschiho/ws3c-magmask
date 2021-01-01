@@ -13,18 +13,32 @@
 </head>
 
 <body>
-<nav>
-    <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Logo</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#">Sass</a></li>
-            <li><a href="#">Components</a></li>
-            <li><a href="#">JavaScript</a></li>
-        </ul>
-    </div>
-</nav>
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" id="logo-container" class="brand-logo center-align"><img class="responsive-img"
+                                                                                 src="../resources/img/logo.svg"
+                                                                                 alt="MagMask Logo"/></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Overview</a></li>
+                <li><a href="our-story.html">Our Story</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="order-now.html" id="order-now-btn" class="waves-effect waves-light btn-small">Order now</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<ul class="sidenav" id="mobile-demo">
+    <li><a class="sidenav-close" href="#!"><i class="material-icons">close</i></a></li>
+    <li><a href="index.html">Overview</a></li>
+    <li><a href="our-story.html">Our Story</a></li>
+    <li><a href="faq.html">FAQ</a></li>
+    <li><a href="order-now.html" id="order-now-btn-mobile" class="waves-effect btn-small">Order now</a>
+    </li>
+</ul>
 <header class="container">
-    <img class="responsive-img" src="../resources/img/girl-with-mask.jpg">
     <h1>Our Story.</h1>
 </header>
 <div class="container">
@@ -93,9 +107,28 @@
     </div>
 </div>
 
-<!--TODO: add footer-->
+<footer class="page-footer grey darken-4 rounded-top">
+    <div class="row">
+        <div class="left">
+            <a href="index.html">
+                <img class="responsive-img brand-logo-inverted left" src="../resources/img/logo-inverted.svg"
+                     alt="MagMask Logo">
+            </a>
+        </div>
+        <div class="right">
+            <a href="https://www.instagram.com/">
+                <img class="responsive-img social-icon" src="../resources/img/instagram.svg" alt="Instagram Logo">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img class="responsive-img social-icon" src="../resources/img/fb.svg" alt="Facebook Logo">
+            </a>
+        </div>
+    </div>
+    <p id="copyright">2020 MagMask AG. All Rights Reserved</p>
+</footer>
 <!--JavaScript at end of body for optimized loading-->
-<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/javascript.js"></script>
 
 </body>
 </html>
