@@ -96,7 +96,8 @@ nav a, nav ul a {
     margin-bottom: 7em;
 }
 
-/* Order-now-btn styling in Navigation*/
+
+/* Order-now-btn styling in Navigation */
 #order-now-btn, #order-now-btn-mobile {
     text-transform: none;
     color: black;
@@ -131,4 +132,39 @@ nav a, nav ul a {
     width: 5em;
     margin-left: 0.5em;
     padding-left: 1em;
+}
+
+/* Alignment in known from-section */
+#zwanzig-min-logo {
+    width: 20em;
+    flex:0 auto;
+}
+
+#kickstarter-logo {
+    width: 30em;
+    flex:0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    #known-from-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #kickstarter-logo{
+        padding-top: 13em;
+        padding-bottom: 13em;
+    }
+    #zwanzig-min-logo{
+        margin-top: 5em;
+    }
+}
+
+@media screen and (min-width: 1201px){
+    #known-from-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10em;
+    }
 }
