@@ -117,11 +117,57 @@ nav a, nav ul a {
     background-color: #FBFBFB;
 }
 
+.btn {
+    background-color: #E1D2F4;
+}
+
+.btn:hover{
+    background-color: #c199f3;
+}
+
+.btn:active{
+    background-color: #ad66fc;
+}
+btn:visited{
+    background-color: #E1D2F4;
+}
+
+/* Order Now Input colors */
+/* Inactive/Active Default input field color */
+.input-field input[type]:not([readonly]),
+.input-field input[type]:focus:not([readonly]),
+.input-field textarea:not([readonly]),
+.input-field textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #c199f3;
+    box-shadow: 0 1px 0 0 #c199f3;
+}
+/* Inactive/Active Default input label color */
+.input-field input[type]:focus:not([readonly])+label,
+.input-field textarea:focus:not([readonly])+label {
+    color: #ad66fc;
+}
+/* Active/Inactive Invalid input field colors */
+.input-field input[type].invalid,
+.input-field input[type].invalid:focus,
+.input-field textarea.invalid,
+.input-field textarea.invalid:focus {
+    border-bottom: 1px solid #e57373;
+    box-shadow: 0 1px 0 0 #e57373;
+}
+/* Active/Inactive Valid input field color */
+.input-field input[type].valid,
+.input-field input[type].valid:focus,
+.input-field textarea.valid,
+.input-field textarea.valid:focus {
+    border-bottom: 1px solid #26a69a;
+    box-shadow: 0 1px 0 0 #26a69a;
+}
+
+
 /* Footer */
 .social-icon {
     padding-right: 1em;
 }
-
 .rounded-top {
     border-radius: 0.625em 0.625em 0 0;
 }
@@ -132,7 +178,6 @@ nav a, nav ul a {
     padding-bottom: 3em;
     margin-bottom: 0;
 }
-
 .brand-logo-inverted {
     stroke: white;
     width: 5em;
