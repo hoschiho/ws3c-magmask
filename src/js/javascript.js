@@ -35,3 +35,8 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }, slideTime);
 });
+
+// display toast, when subscribing
+function subscribedMessage(){
+    M.toast({html: 'Successfully subscribed!'})
+}
