@@ -206,8 +206,8 @@ nav a, nav ul a {
 .input-field input[type].valid:focus,
 .input-field textarea.valid,
 .input-field textarea.valid:focus {
-    border-bottom: 1px solid #26a69a;
-    box-shadow: 0 1px 0 0 #26a69a;
+    border-bottom: 1px solid #E1D2F4;
+    box-shadow: 0 1px 0 0 #E1D2F4;
 }
 
 /* Footer */
