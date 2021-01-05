@@ -73,7 +73,10 @@ button {
     html {
         font-size: 70%;
     }
+
 }
+
+
 
 .no-margin-top {
     margin-top: 0;
@@ -87,6 +90,11 @@ button {
     margin-bottom: 7em;
 }
 
+.small-margin-after {
+    margin-bottom: 3em;
+
+}
+
 /* Navigation */
 nav {
     background: #FBFBFB;
@@ -96,6 +104,14 @@ nav a, nav ul a {
     color: black;
     font-size: 1.25em;
 }
+
+#heroImage {
+    max-width: 60%;
+}
+.circle {
+    max-width: 70% !important;
+}
+
 
 /* Carousel */
 .carousel-border {
@@ -140,14 +156,20 @@ nav a, nav ul a {
 
 .btn {
     background-color: #E1D2F4;
+    color: rgba(0,0,0,0.87);
+    border-radius: 100px;
 }
 
 .btn:hover {
-    background-color: #c199f3;
+    background-color: #E1D2F4;
 }
 
 .btn:active {
-    background-color: #ad66fc;
+    background-color: #E1D2F4;
+}
+
+.btn:focus {
+    background-color: #E1D2F4;
 }
 
 .btn:visited {
@@ -204,9 +226,7 @@ nav a, nav ul a {
     margin-bottom: 0;
 }
 
-#hero {
-    max-width: 60%;
-}
+
 
 .brand-logo-inverted {
     stroke: white;
