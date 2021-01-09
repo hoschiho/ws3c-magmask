@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+:root {
+    --primary-color: #E1D2F4;
+    --primary-variant: #C199F3;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", sans-serif;
 }
@@ -46,7 +51,7 @@ button {
 }
 
 .primary-color {
-    background-color: #E1D2F4;
+    background-color: var(--primary-color);
 }
 
 .brand-logo {
@@ -73,10 +78,7 @@ button {
     html {
         font-size: 70%;
     }
-
 }
-
-
 
 .no-margin-top {
     margin-top: 0;
@@ -92,7 +94,6 @@ button {
 
 .small-margin-after {
     margin-bottom: 3em;
-
 }
 
 /* Navigation */
@@ -108,10 +109,10 @@ nav a, nav ul a {
 #heroImage {
     max-width: 60%;
 }
+
 .circle {
     max-width: 70% !important;
 }
-
 
 /* Carousel */
 .carousel-border {
@@ -139,41 +140,39 @@ nav a, nav ul a {
 #order-now-btn, #order-now-btn-mobile {
     text-transform: none;
     font-size: 1em;
-    color: rgba(0,0,0,0.87);
+    color: rgba(0, 0, 0, 0.87);
 }
 
 #order-now-btn {
-    background-color: #E1D2F4;
+    background-color: var(--primary-color);
     border-radius: 100px;
-
 }
 
 #order-now-btn-mobile {
-    background-color: #E1D2F4;
+    background-color: var(--primary-color);
     border-radius: 100px;
-
 }
 
 .btn {
-    background-color: #E1D2F4;
-    color: rgba(0,0,0,0.87);
+    background-color: var(--primary-color);
+    color: rgba(0, 0, 0, 0.87);
     border-radius: 100px;
 }
 
 .btn:hover {
-    background-color: #E1D2F4;
+    background-color: var(--primary-color);
 }
 
 .btn:active {
-    background-color: #E1D2F4;
+    background-color: var(--primary-color);
 }
 
 .btn:focus {
-    background-color: #E1D2F4;
+    background-color: var(--primary-color);
 }
 
 .btn:visited {
-    background-color: #E1D2F4;
+    background-color: var(--primary-color);
 }
 
 /* Order Now Input colors */
@@ -182,14 +181,14 @@ nav a, nav ul a {
 .input-field input[type]:focus:not([readonly]),
 .input-field textarea:not([readonly]),
 .input-field textarea:focus:not([readonly]) {
-    border-bottom: 1px solid #c199f3;
-    box-shadow: 0 1px 0 0 #c199f3;
+    border-bottom: 1px solid var(--primary-variant);
+    box-shadow: 0 1px 0 0 var(--primary-variant);
 }
 
 /* Inactive/Active Default input label color */
 .input-field input[type]:focus:not([readonly]) + label,
 .input-field textarea:focus:not([readonly]) + label {
-    color: #ad66fc;
+    color: #AD66FC;
 }
 
 /* Active/Inactive Invalid input field colors */
@@ -197,8 +196,8 @@ nav a, nav ul a {
 .input-field input[type].invalid:focus,
 .input-field textarea.invalid,
 .input-field textarea.invalid:focus {
-    border-bottom: 1px solid #e57373;
-    box-shadow: 0 1px 0 0 #e57373;
+    border-bottom: 1px solid #E57373;
+    box-shadow: 0 1px 0 0 #E57373;
 }
 
 /* Active/Inactive Valid input field color */
@@ -206,8 +205,8 @@ nav a, nav ul a {
 .input-field input[type].valid:focus,
 .input-field textarea.valid,
 .input-field textarea.valid:focus {
-    border-bottom: 1px solid #E1D2F4;
-    box-shadow: 0 1px 0 0 #E1D2F4;
+    border-bottom: 1px solid var(--primary-color);
+    box-shadow: 0 1px 0 0 var(--primary-color);
 }
 
 /* Footer */
@@ -225,8 +224,6 @@ nav a, nav ul a {
     padding-bottom: 1em;
     margin-bottom: 0;
 }
-
-
 
 .brand-logo-inverted {
     stroke: white;
